@@ -9,13 +9,16 @@ It's quite a problem if you have to clean up multiple records manually, let's sa
 ### Preparation ###
 
 #### Authorization ####
-1. Read and get acquainted with the [Creating and managing service account keys](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) topic.
-2. Export the service account json key file.
-3. Place `serviceAccountKey.json` inside of `./src/config` folder of the project,
+1. Read and get acquainted with the [Creating and managing service account keys](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) topic,
+2. Give the service account Editor's permissions,
+3. Enable Google Analytics's API,
+4. Export the service account json key file.
+5. Place `serviceAccountKey.json` inside of `./src/config` folder of the project,
 
 #### Google Analytics ####
 
-4. Set Google Analytics' tracking id as environmental variable `TRACKING_ID` (you either have to define it from your OS or set it inside of `.env` file).  
+6. Set Google Analytics' tracking id as environmental variable `TRACKING_ID` (you either have to define it from your OS or set it inside of `.env` file),
+7. Add in Google Analytics' "Admin" settings page's "Admin" tab's "View" subtab's "View User Management" section the `client_email` email address of the service account.
   
 
 ### How to use ###
