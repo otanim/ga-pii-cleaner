@@ -12,7 +12,7 @@ It's quite a problem if you have to clean up multiple records manually, let's sa
 	
 1. Read and get acquainted with the ["Creating and managing service account keys"](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) topic,
 2. Create a new service account (if there is no any).
-3. Give that service account Editor's permissions,
+3. Give that service account Editor's permission,
 4. Enable Google Analytics's API,
 5. Export the service account json key file.
 6. Place `serviceAccountKey.json` inside of `./src/config` folder of the project,
