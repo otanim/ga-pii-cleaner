@@ -2,6 +2,10 @@
 
 This script is intended to clean up PII related client data from Google Analytics.
 
+### Prologue ###
+
+It's quite a problem if you have to clean up multiple records manually, let's say if you have too many records to clean up, that will take days to finish the work, however with this script you can accomplish the task within a minutes.
+
 ### Preparation ###
 
 #### Authorization ####
