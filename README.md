@@ -1,4 +1,4 @@
-# README #
+# ga-pii-cleaner #
 
 This script is intended to clean up PII related client data from Google Analytics.
 
