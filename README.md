@@ -1,6 +1,6 @@
 # ga-pii-cleaner #
 
-This script is intended to clean up PII related client data from Google Analytics.
+This script is intended to clean up PII (personally identifiable information) related client data from Google Analytics.
 
 ### Prologue ###
 
