@@ -1,4 +1,4 @@
-//package
+//packages
 require('dotenv').config();
 const {google} = require('googleapis');
 const path = require('path');
