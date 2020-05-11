@@ -15,7 +15,6 @@
   "license": "GPL-2.0",
   "homepage": "https://github.com/otanim/ga-pii-cleaner#readme",
   "dependencies": {
-    "@google-cloud/local-auth": "^0.1.0",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "googleapis": "^50.0.0"
